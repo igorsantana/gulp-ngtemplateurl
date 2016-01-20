@@ -2,9 +2,9 @@
 
 import assert from 'assert'
 import should from 'should'
-import Transform from 'readable-stream/transform'
 
-let plugin = require('../dist/index')
+let plugin    = require('../dist/index'),
+    Transform = require('readable-stream/transform')
 
 describe('gulp-ngTemplateUrl', () => {
 
