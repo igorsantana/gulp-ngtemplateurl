@@ -3,7 +3,7 @@
 import assert from 'assert'
 import should from 'should'
 
-let plugin    = require('../dist/index'),
+let plugin    = require('./lib/index'),
     Transform = require('readable-stream/transform')
 
 describe('gulp-ngTemplateUrl', () => {
@@ -17,5 +17,4 @@ describe('gulp-ngTemplateUrl', () => {
     plugin().should.not.equal(undefined)
     plugin().should.not.equal(null)
   })
-
 })
